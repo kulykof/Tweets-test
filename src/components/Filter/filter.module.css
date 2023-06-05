@@ -1,0 +1,24 @@
+.select {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 20px;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-9xl);
+  background-color: var(--color-thistle);
+  border-radius: 10.31px;
+  box-shadow: 0 3.4369285106658936px 3.44px rgba(0, 0, 0, 0.25);
+  width: 196px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.select:hover,
+.select:focus {
+  border-color: #999;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.option {
+  transition: background-color 0.3s ease;
+  text-align: left;
+}

@@ -1,0 +1,133 @@
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-9xl);
+  background-color: var(--color-thistle);
+  position: absolute;
+  top: 374px;
+  left: 92px;
+  border-radius: 10.31px;
+  box-shadow: 0 3.4369285106658936px 3.44px rgba(0, 0, 0, 0.25);
+  width: 196px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.followers,
+.tweets {
+  position: absolute;
+  top: 284px;
+  left: 50%; /* Перемещаем элементы на половину ширины родительского компонента */
+  transform: translateX(-50%); /* Центрируем элементы относительно их собственной ширины */
+  /* left: 124px; */
+  font-size: var(--font-size-xl);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-thistle);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.followers {
+  top: 324px;
+  /* left: 83px; */
+}
+
+.followChild {
+  position: absolute;
+  top: 214px;
+  left: 0;
+  background-color: var(--color-thistle);
+  box-shadow: 0-1.7184642553329468px 3.44px #ae7be3 inset, 0 3.4369285106658936px 3.44px rgba(0, 0, 0, 0.06), 0 3.4369285106658936px 2.58px #fbf8ff inset;
+  width: 100%;
+  height: 8px;
+}
+
+.boyIcon {
+  position: absolute;
+  top: 187px;
+  left: 160px;
+  border-radius: 85.92px;
+  width: 60px;
+  height: 60px;
+}
+
+.picture21Icon {
+  position: absolute;
+  top: 28px;
+  left: 36px;
+  width: 308px;
+  height: 168px;
+  object-fit: cover;
+}
+
+.follow,
+.logoIcon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 76px;
+  height: 22px;
+}
+
+.followParent {
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: relative;
+  background-color: #fff;
+  width: 380px;
+  height: 460px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-thistle);
+  font-family: var(--font-montserrat);
+  border-radius: var(--br-xl);
+  background: linear-gradient(114.99deg, #471ca9, #5736a3 69.1%, #4b2a99);
+  box-shadow: -2.5776965618133545px 6.873857021331787px 20.62px rgba(0, 0, 0, 0.23);
+}
+
+.outerRing {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 150px;
+  top: 178px;
+  background-color: #ebd8ff;
+  box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06), inset 0px -2.19582px 4.39163px #ae7be3, inset 0px 4.39163px 3.29372px #fbf8ff;
+  border-radius: 50%;
+}
+
+.outerRing::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06), 0px -2px 4px #ae7be3, inset 0px 4px 3px #fbf8ff; /* добавлены внутренние тени */
+}
+
+.innerRing {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #5736a3;
+  border-radius: 50%;
+}
+
+.buttonFollowing {
+  background-color: #9252eb;
+}
